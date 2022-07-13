@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_created_order_form.xml" value="0.33" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_list.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_new_order_form.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_order_form.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_order_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_preferences.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_user_form.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/activity_user_list.xml" value="0.1" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/fragment_completed_order.xml" value="0.27760416666666665" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/fragment_completed_panel.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/list_user_item.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/order_holder.xml" value="0.33" />
+        <entry key="..\:/Users/Mikelangelo/Documents/Android/Proyectos/LoijaApp/app/src/main/res/layout/user_holder.xml" value="0.29739583333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

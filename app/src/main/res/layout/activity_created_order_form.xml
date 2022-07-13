@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".CreatedOrderForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:text="Id: "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp" />
+                <TextView
+                    android:id="@+id/coForm_textId"
+                    android:text="Ctrl-O"
+                    android:gravity="end"
+                    android:textSize="16sp"
+                    android:padding="5dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:text="Creada en: "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp" />
+                <TextView
+                    android:id="@+id/coForm_textCreated"
+                    android:text="Ctrl-O"
+                    android:gravity="end"
+                    android:textSize="16sp"
+                    android:padding="5dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:text="Creada por: "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp" />
+                <TextView
+                    android:id="@+id/coForm_textCreatedBy"
+                    android:text="Ctrl-O"
+                    android:gravity="end"
+                    android:textSize="16sp"
+                    android:padding="5dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:text="Material: "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp" />
+                <TextView
+                    android:id="@+id/coForm_textMaterial"
+                    android:text="Ctrl-O"
+                    android:gravity="end"
+                    android:textSize="16sp"
+                    android:padding="5dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:text="Cantidad: "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp" />
+                <TextView
+                    android:id="@+id/coForm_textAmount"
+                    android:text="Ctrl-0"
+                    android:gravity="end"
+                    android:textSize="16sp"
+                    android:padding="5dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:text="Fecha límite: "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp" />
+                <TextView
+                    android:id="@+id/coForm_textDeadline"
+                    android:text="Ctrl-O"
+                    android:gravity="end"
+                    android:textSize="16sp"
+                    android:padding="5dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:text="Estado: "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp" />
+                <TextView
+                    android:id="@+id/coForm_textCompleted"
+                    android:text="Ctrl-O"
+                    android:gravity="end"
+                    android:textSize="16sp"
+                    android:padding="5dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:text="Finalizada en: "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/coForm_textFinished"
+                    android:gravity="end"
+                    android:padding="5dp"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:text="Finalizada por: "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/coForm_textCompletedBy"
+                    android:gravity="end"
+                    android:padding="5dp"
+                    android:textSize="16sp" />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Notas"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/coForm_textNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/coForm_btnMarkCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Completar comanda" />
+
+    <fragment
+        android:id="@+id/coForm_fragmentContainer"
+        android:name="com.example.loijaapp.CompletedOrderFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

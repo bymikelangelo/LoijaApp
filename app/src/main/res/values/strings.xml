@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LoijaApp</string>
+    <string name="main_mensaje_bienvenida">Bienvenido, inicia sesion para continuar</string>
+    <string name="main_mensaje_username">Bienvenido, %1$s</string>
+    <string name="main_btn_iniciar_sesion">Iniciar Sesión</string>
+    <string name="main_btn_cerrar_sesion">Cerrar Sesión</string>
+    <string name="main_sesion_cerrada">Sesión cerrada con éxito</string>
+    <string name="main_sin_funcionalidad">Funcionalidad no implementada</string>
+    <string name="main_error_conexion_servidor">Fallo al establecer conexión con el servidor</string>
+    <string name="login_error_credenciales">Credenciales erróneas</string>
+    <string name="orderform_spinner_productos_textview">Producto base</string>
+    <string name="orderform_spinner_productos_primera_opcion">Producto...</string>
+    <string name="orderform_spinner_materiales_textview">Material a fabricar</string>
+    <string name="orderform_spinner_materiales_primera_opcion">Material...</string>
+    <string name="orderholder_amount">Cantidad: %1$d</string>
+    <string name="orderholder_deadline">Fecha límite: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
